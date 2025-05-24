@@ -1,0 +1,9 @@
+[package]
+name = "rekt"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5.38", features = ["derive"] }
+alloy = "1.0.7"
+rekt_core = { path = "../rekt_core/" }
